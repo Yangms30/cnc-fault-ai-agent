@@ -111,24 +111,20 @@ project/
 
 ### 1️⃣ 가상환경 생성 및 활성화
 
-```bash
+
 python3 -m venv venv
 source venv/bin/activate
 2️⃣ 라이브러리 설치
-bash
-코드 복사
+
 pip install -r requirements.txt
 3️⃣ OpenAI API Key 설정 (.env)
-bash
-코드 복사
+
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 4️⃣ CNC 매뉴얼 벡터DB 생성
-bash
-코드 복사
+
 python embedding.py
 5️⃣ Streamlit 실행
-bash
-코드 복사
+
 streamlit run main.py
 ✅ Streamlit 데모 화면 구성
 CNC 센서 CSV 업로드
@@ -174,5 +170,5 @@ ERP/MES 연동
 
 스마트팩토리 불량 자동 분석 & 조치 시스템
 
-⭐ 사용 기술 한 줄 요약
-CatBoost · SHAP · LangChain · LangGraph · ChromaDB · OpenAI · Streamlit
+#⭐ 사용 기술 한 줄 요약
+#CatBoost · SHAP · LangChain · LangGraph · ChromaDB · OpenAI · Streamlit
