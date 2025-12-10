@@ -50,8 +50,6 @@
 ↓
 [Streamlit UI 출력]
 
-yaml
-코드 복사
 
 ---
 
@@ -84,8 +82,6 @@ project/
 ├─ sample_cnc_input.csv # 테스트용 샘플 데이터
 └─ .env # OpenAI API Key
 
-yaml
-코드 복사
 
 ---
 
