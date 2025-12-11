@@ -110,12 +110,9 @@ project/
 ## ✅ 실행 방법
 
 ### 1️⃣ 가상환경 생성 및 활성화
-
-
 python3 -m venv venv
 source venv/bin/activate
 2️⃣ 라이브러리 설치
-
 pip install -r requirements.txt
 3️⃣ OpenAI API Key 설정 (.env)
 
