@@ -33,23 +33,7 @@
 
 ## ✅ 전체 시스템 구조
 
-[센서 데이터 입력]
-↓
-[CatBoost 불량 예측]
-↓
-[SHAP 중요 변수 추출]
-↓
-[LLM Cause Agent]
-(불량 유형 + 물리 원인 해석)
-↓
-[RAG Agent]
-(CNC 매뉴얼 PDF 검색)
-↓
-[Supervisor Agent]
-(최종 자동 조치 리포트 생성)
-↓
-[Streamlit UI 출력]
-
+<img width="1716" height="392" alt="Untitled-2025-12-07-1731" src="https://github.com/user-attachments/assets/65dc8ebc-f97d-4a96-af04-4b9f16cd6c6b" />
 
 ---
 
@@ -71,16 +55,18 @@
 
 ## ✅ 프로젝트 폴더 구조
 
+```
 project/
 │
-├─ agent.py # Cause Agent + RAG Agent + LangGraph
-├─ main.py # Streamlit UI
-├─ embedding.py # CNC 매뉴얼 PDF → 벡터DB 생성
+├─ agent.py          # Cause Agent + RAG Agent + LangGraph
+├─ main.py           # Streamlit UI
+├─ embedding.py      # CNC 매뉴얼 PDF → 벡터DB 생성
 ├─ requirements.txt
-├─ catboost_cnc_fault_model.cbm # 학습된 모델
-├─ cnc_rag_db/ # Chroma 벡터 DB
-├─ sample_cnc_input.csv # 테스트용 샘플 데이터
-└─ .env # OpenAI API Key
+├─ catboost_cnc_fault_model.cbm  # 학습된 모델
+├─ cnc_rag_db/       # Chroma 벡터 DB
+├─ sample_cnc_input.csv          # 테스트용 샘플 데이터
+└─ .env              # OpenAI API Key
+```
 
 
 ---
